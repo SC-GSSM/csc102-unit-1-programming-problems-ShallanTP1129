@@ -16,8 +16,8 @@ public class Unit1 {
   * @return the sum of a and b
   */
  public static int addIntegers(int a, int b) {
-     // Your code here
-     return 0; // Placeholder return
+     
+     return a + b; // Placeholder return
  }
 
  /**
@@ -29,7 +29,7 @@ public class Unit1 {
   */
  public static int castDoubleToInt(double value) {
      // Your code here
-     return 0; // Placeholder return
+     return (int)value; // Placeholder return
  }
 
  /**
@@ -40,7 +40,9 @@ public class Unit1 {
   * @return true if value is true, false otherwise
   */
  public static boolean isTrue(boolean value) {
-     // Your code here
+     if(value==true){
+        return true;
+     }
      return false; // Placeholder return
  }
 
@@ -51,8 +53,8 @@ public class Unit1 {
   * @return Integer.MAX_VALUE minus one
   */
  public static int maxValueMinusOne() {
-     // Your code here
-     return 0; // Placeholder return
+     
+     return Integer.MAX_VALUE - 1; // Placeholder return
  }
 
  /**
@@ -65,6 +67,6 @@ public class Unit1 {
   */
  public static double multiplyIntAndDouble(int a, double b) {
      // Your code here
-     return 0.0; // Placeholder return
+     return a * b; // Placeholder return
  }
 }
